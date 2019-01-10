@@ -29,6 +29,10 @@ h2{
     margin-bottom: 60px;
 }
 
+.text__pad h2{
+    text-align: left;
+}
+
 .button_pad{
     padding: 5px 25px;
     border: 1px solid #333b46;

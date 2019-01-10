@@ -60,6 +60,7 @@ nav{
 .menu a:hover{
     border: 1px solid #fff;
     border-radius: 20px; 
+    transition: 0.4s ease-in-out;
 }
 
 .menu a{
@@ -71,6 +72,8 @@ nav{
     padding: 2px 7px;
     border: 1px solid rgba(0,0,0,0);
     border-radius: 20px; 
+    
+    transition: 0.6s ease-in-out;
 }
 
 .titles{
@@ -108,6 +111,7 @@ h3{
     height: 27px;
     margin-top: 170px;
     text-decoration: none;
+    transition: 0.4s ease-in-out;
     
 }
 
@@ -120,6 +124,7 @@ h3{
 
 .icon_arrow:hover{
     background: #333b46;
+    transition: 0.4s ease-in-out;
 }
 
 
