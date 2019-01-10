@@ -59,8 +59,7 @@ nav{
 
 .menu a:hover{
     border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 2px 7px;
+    border-radius: 20px; 
 }
 
 .menu a{
@@ -69,6 +68,9 @@ nav{
     font-family: OpenSans-Light;
     font-size: 16px;
     line-height: 28px;
+    padding: 2px 7px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 20px; 
 }
 
 .titles{
