@@ -1,0 +1,114 @@
+@font-face {
+    font-family: OpenSans-Light; 
+    src: url(../fonts/OpenSans-Light.ttf); 
+   }
+
+@font-face {
+    font-family: SourceSansPro-Light; 
+    src: url(../fonts/SourceSansPro-Light.ttf); 
+   }
+
+@font-face {
+    font-family: MyriadPro-Regular; 
+    src: url(../fonts/MyriadPro-Regular.otf); 
+   }
+
+
+header{
+    background: url(../img/Layer1.jpg) no-repeat center top / cover;
+    height: 600px;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: 45px;
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 45px;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;  
+}
+
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-family: OpenSans-Light;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.titles{
+    width: 570px;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+.titles__first{
+    text-align: center;
+    color: #fff;  
+    text-transform: uppercase;
+    font-family: SourceSansPro-Light;
+    font-size: 35px;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+
+
+h3{
+    text-align: center;
+    color: #2f2f2e;  
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 28px;  
+    word-wrap: break-word;
+    
+}
+
+.button{ 
+    display: block;
+    background: #19bd9a;
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 27px;
+    height: 27px;
+    margin-top: 170px;
+    text-decoration: none;
+    
+}
+
+.button:before{
+  content:  url(../img/arrow.png);
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+
+
+
