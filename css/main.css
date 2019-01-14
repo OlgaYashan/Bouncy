@@ -14,9 +14,15 @@
    }
 
 
+@font-face {
+    font-family: SourceSansPro-Bold; 
+    src: url(../fonts/SourceSansPro-Bold.ttf); 
+   }
+
+
 header{
     background: url(../img/Layer1.jpg) no-repeat center top / cover;
-    height: 600px;
+    padding-bottom: 50px;
 }
 
 .clearfix:after{
@@ -40,7 +46,7 @@ div{
     float: left;
 }
 
-nav{
+.heading nav{
     float: right;
     margin-top: 45px;
 }

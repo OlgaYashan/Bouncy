@@ -1,0 +1,149 @@
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    margin: 0 auto;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    padding:  4px;
+}
+.column img{
+    padding-bottom: 5px;
+    
+    transition: 0.4s ease-in-out;
+}
+
+.container__portfolio{
+    background-color: #f3f3f3;
+    padding-top: 20px;
+      padding-bottom: 50px;
+    
+}
+
+
+.column .pic:hover{
+    filter: brightness(50%);
+    
+    transition: 0.4s ease-in-out;
+}
+
+.container__portfolio h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    
+    
+}
+
+.container__portfolio h2{
+   width: 420px;
+   margin: 0 auto;
+    
+}
+
+
+.container__portfolio nav{
+    margin: 0 auto;
+    padding: 40px 400px;
+    
+}
+
+.container__portfolio ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container__portfolio a{
+    color: #696969;
+    line-height: 2;
+    text-decoration:none;
+    font-family: MyriadPro-Regular;
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+.container__portfolio a:after {
+    background-color: #8ddac9;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: relative;
+    transition: width .3s ease-in-out;
+    
+    transform:translateX(-50%);
+}
+.container__portfolio a:hover:after{
+    width: 100%;
+}
+
+.pic__portfolio{
+    display: block;
+    height: 250px;
+    background: url(../img/Layer%20101.png) no-repeat center;
+  
+}
+
+
+.pic7{
+    background: url(../img/7.png) no-repeat center;
+    margin-bottom: 5px;
+}
+
+
+
+.pic7 h1{
+    color: #19bd9a;
+    text-align: left;
+    margin: 90px 0 20px 0;
+    
+}
+
+.pic7_content{
+    
+    padding-left: 35px;
+}
+
+.pic7 hr{
+    background: #2ebca1;
+    border: 0;
+    height: 2px;
+    width: 30px;
+    float: left;
+}
+
+.pic7 p{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    font-family: OpenSans-Light;
+    margin: 10px 20px 65px 0;
+}
+
+.pic7 .button{
+    margin: 0 10px 62px  0;
+    background: #000;
+    height: 25px;
+    width: 25px;
+}
+
+.icon_heart2:before{
+  content:  url(../img/heart2.png);
+  position: relative;
+  top: 3px;
+  left: 5px;
+}
+
+.icon_link:before{
+  content:  url(../img/unlink.png);
+  position: relative;
+  top: 2px;
+  left: 6px; 
+}

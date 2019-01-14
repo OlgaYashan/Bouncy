@@ -114,3 +114,48 @@ circle{
     top:10px;
 }
 
+.boy{
+    background: url(../img/Rectangle%201.jpg) no-repeat center top / cover;
+    
+    display: block;
+}
+
+.text__boy{
+    width: 430px;
+    margin: 80px 10px 105px 95px;
+}
+
+.text__boy h1{
+    color: #fff;
+    font-family: SourceSansPro-Light;
+}
+
+.text__boy h2{
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    font-family: SourceSansPro-Light;
+    margin-bottom: 20px;
+}
+
+
+.text__boy p{
+    text-transform: uppercase;
+    font-size: 10px;
+     color: #FFF;
+    font-family: MyriadPro-Regular;
+    letter-spacing: 2px;
+}
+
+.text__boy .name{
+    font-size: 12px;
+    font-family:SourceSansPro-Bold;
+}
+
+.pic__boy img{
+    position: absolute;
+    top: 2810px;
+    right:80px;
+}
+
+
